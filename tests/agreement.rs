@@ -1,5 +1,6 @@
 #![cfg(feature = "ndarray")]
 
+use alloc::vec::Vec;
 use ndarray::{s, Array2};
 use rand::SeedableRng;
 use rand_chacha::ChaCha20Rng;
